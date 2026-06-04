@@ -1,0 +1,22 @@
+{
+  "name": "alizon-email-template",
+  "version": "1.0.0",
+  "description": "README.md file added",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mjml alizon.mjml -o alizon.html",
+    "watch": "nodemon --ext mjml --exec \"npm run build\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mozahedul/alizon-email-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mozahedul/alizon-email-template/issues"
+  },
+  "homepage": "https://github.com/Mozahedul/alizon-email-template#readme"
+}

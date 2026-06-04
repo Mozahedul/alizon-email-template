@@ -12,10 +12,10 @@
     <mj-title>Obsidian Ceramic Mug – Special Offer</mj-title>
 
     <!-- Google Font -->
-    <mj-font
+    <!-- <mj-font
       name="Lora"
       href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap"
-    />
+    /> -->
 
     <!--
     ================================================
@@ -61,7 +61,7 @@
     <mj-attributes>
       <!-- Entire Email -->
       <mj-all
-        font-family="'Lora', Georgia, 'Times New Roman', Arial, serif"
+        font-family="Arial, Helvetica, sans-serif"
         color="#444444"
         line-height="1.5"
       />
@@ -70,7 +70,7 @@
       <mj-body background-color="#f4f4f4" />
 
       <!-- Sections -->
-      <mj-section padding="0" background-color="#ffffff" />
+      <mj-section padding="0px 15px" background-color="#ffffff" />
 
       <!-- Columns -->
       <mj-column padding="0" />
@@ -95,7 +95,7 @@
       />
 
       <!-- Images -->
-      <mj-image padding="0" border="0" fluid-on-mobile="true" />
+      <mj-image padding="0" border="0" fluid-on-mobile="false" />
 
       <!-- Divider -->
       <mj-divider
@@ -138,5 +138,749 @@
     </mj-raw>
   </mj-head>
 
-  <mj-body width="600px" background-color="#f4f4f4"> </mj-body>
+  <mj-body width="600px" background-color="#f2f3f7">
+    <!-- ============================= -->
+    <!-- LOGO                      -->
+    <!-- ================================ -->
+    <mj-section background-color="#ffffff">
+      <mj-column vertical-align="top">
+        <mj-text
+          color="#cf420a"
+          align="center"
+          font-weight="bold"
+          padding="8px 0px"
+          >Alizon</mj-text
+        >
+      </mj-column>
+    </mj-section>
+    <!-- ================================ -->
+    <!-- BANNER SECTION -->
+    <!-- ================================ -->
+    <mj-section padding="0px 15px">
+      <mj-column>
+        <mj-image
+          fluid-on-mobile="false"
+          src="./images/banner.jpg"
+          alt="Obsidian Ceramic Mug"
+          width="600px"
+        />
+      </mj-column>
+    </mj-section>
+    <!-- ================================ -->
+    <!-- TRENDING PRODUCTS TITLE -->
+    <!-- ================================ -->
+    <mj-section>
+      <mj-column vertical-align="middle">
+        <mj-text
+          color="#111111"
+          font-size="16px"
+          font-weight="bold"
+          padding="10px 0 10px 0"
+          align="left"
+        >
+          Trending Products
+        </mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-button inner-padding="4px 12px" font-size="12px" align="right"
+          >View All
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- ================================ -->
+    <!-- PRODUCTS CARDS -->
+    <!-- ================================ -->
+    <!-- ROW 1 -->l
+    <mj-section background-color="#ffffff">
+      <!-- CARD 1 -->
+      <mj-column padding="0px 5px 15px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="./images/ac-freeze.jpg"
+          alt="Shopping for women"
+          width="300px"
+          padding="0px"
+          align="left"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text padding="10px 0px 1px" font-size="12px">
+          2024 New Hot Selling ...
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-weight="bold"
+          color="#111111"
+          align="left"
+          text-transform="uppercase"
+        >
+          HK$2191.15 - HK$4633.60
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="left"
+          padding="2px 0px 0px"
+        >
+          Min.order: 1 Unit
+        </mj-text>
+        <mj-image
+          fluid-on-mobile="false"
+          src="./images/verify.png"
+          alt="Verify"
+          width="60px"
+          padding="5px 0px 0px"
+          align="left"
+        />
+        <mj-text>
+          <span style="font-size: 12px">3 yrs</span>
+          <span style="font-size: 13px; font-weight: bold" padding-left="5px">
+            4.3/5.0</span
+          >
+        </mj-text>
+      </mj-column>
+      <!-- CARD 2 -->
+      <mj-column padding="0px 5px 15px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="./images/motor-bike.jpg"
+          alt="Shopping for men"
+          width="300px"
+          padding="0"
+          align="left"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text padding="10px 0px 1px" font-size="12px">
+          160kmh 200km Long Ran ...
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-weight="bold"
+          color="#111111"
+          align="left"
+          text-transform="uppercase"
+        >
+          HK$2191.15 - HK$4633.60
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="left"
+          padding="2px 0px 0px"
+        >
+          Min.order: 1 Unit
+        </mj-text>
+        <mj-image
+          fluid-on-mobile="false"
+          src="./images/verify.png"
+          alt="Verify"
+          width="60px"
+          padding="5px 0px 0px"
+          align="left"
+        />
+        <mj-text>
+          <span style="font-size: 12px">3 yrs</span>
+          <span style="font-size: 13px; font-weight: bold" padding-left="5px">
+            4.3/5.0</span
+          >
+        </mj-text>
+      </mj-column>
+      <!-- CARD 3 -->
+      <mj-column padding="0px 5px 15px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="./images/generator.jpg"
+          alt="Shopping for men"
+          width="300px"
+          padding="0"
+          align="left"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text padding="10px 0px 1px" font-size="12px">
+          10KW 10KVA Silent Sou...
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-weight="bold"
+          color="#111111"
+          align="left"
+          text-transform="uppercase"
+        >
+          HK$2191.15 - HK$4633.60
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="left"
+          padding="2px 0px 0px"
+        >
+          Min.order: 1 Unit
+        </mj-text>
+        <mj-image
+          fluid-on-mobile="false"
+          src="./images/verify.png"
+          alt="Verify"
+          width="60px"
+          padding="5px 0px 0px"
+          align="left"
+        />
+        <mj-text>
+          <span style="font-size: 12px">3 yrs</span>
+          <span style="font-size: 13px; font-weight: bold" padding-left="5px">
+            4.3/5.0</span
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- ROW 2 -->
+    <mj-section background-color="#ffffff">
+      <!-- CARD 1 -->
+      <mj-column padding="0px 5px 15px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="./images/pullover.jpg"
+          alt="Shopping for women"
+          width="300px"
+          padding="0px"
+          align="left"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text padding="10px 0px 1px" font-size="12px">
+          Jacquard Knitted Pull...
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-weight="bold"
+          color="#111111"
+          align="left"
+          text-transform="uppercase"
+        >
+          HK$2191.15 - HK$4633.60
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="left"
+          padding="2px 0px 0px"
+        >
+          Min.order: 1 Unit
+        </mj-text>
+        <mj-image
+          fluid-on-mobile="false"
+          src="./images/verify.png"
+          alt="Verify"
+          width="60px"
+          padding="5px 0px 0px"
+          align="left"
+        />
+        <mj-text>
+          <span style="font-size: 12px">3 yrs</span>
+          <span style="font-size: 13px; font-weight: bold" padding-left="5px">
+            4.3/5.0</span
+          >
+        </mj-text>
+      </mj-column>
+      <!-- CARD 2 -->
+      <mj-column padding="0px 5px 15px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="./images/sweater.jpg"
+          alt="Shopping for men"
+          width="300px"
+          padding="0"
+          align="left"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text padding="10px 0px 1px" font-size="12px">
+          Custom Sweater Men's...
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-weight="bold"
+          color="#111111"
+          align="left"
+          text-transform="uppercase"
+        >
+          HK$2191.15 - HK$4633.60
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="left"
+          padding="2px 0px 0px"
+        >
+          Min.order: 1 Unit
+        </mj-text>
+        <mj-image
+          fluid-on-mobile="false"
+          src="./images/verify.png"
+          alt="Verify"
+          width="60px"
+          padding="5px 0px 0px"
+          align="left"
+        />
+        <mj-text>
+          <span style="font-size: 12px">3 yrs</span>
+          <span style="font-size: 13px; font-weight: bold" padding-left="5px">
+            4.3/5.0</span
+          >
+        </mj-text>
+      </mj-column>
+      <!-- CARD 3 -->
+      <mj-column padding="0px 5px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="./images/cuticle.jpg"
+          alt="Shopping for men"
+          width="300px"
+          padding="0"
+          align="left"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text padding="10px 0px 1px" font-size="12px">
+          10KW 10KVA Silent Sou...
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-weight="bold"
+          color="#111111"
+          align="left"
+          text-transform="uppercase"
+        >
+          HK$2191.15 - HK$4633.60
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="left"
+          padding="2px 0px 0px"
+        >
+          Min.order: 1 Unit
+        </mj-text>
+        <mj-image
+          fluid-on-mobile="false"
+          src="./images/verify.png"
+          alt="Verify"
+          width="60px"
+          padding="5px 0px 0px"
+          align="left"
+        />
+        <mj-text>
+          <span style="font-size: 12px">3 yrs</span>
+          <span style="font-size: 13px; font-weight: bold" padding-left="5px">
+            4.3/5.0</span
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ROW 3 -->
+    <mj-section background-color="#ffffff">
+      <!-- CARD 1 -->
+      <mj-column padding="15px 5px 15px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="./images/jacket.jpg"
+          alt="Shopping for women"
+          width="300px"
+          padding="0px"
+          align="left"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text padding="10px 0px 1px" font-size="12px">
+          Best Quality Promotio...
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-weight="bold"
+          color="#111111"
+          align="left"
+          text-transform="uppercase"
+        >
+          HK$2191.15 - HK$4633.60
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="left"
+          padding="2px 0px 0px"
+        >
+          Min.order: 1 Unit
+        </mj-text>
+        <mj-image
+          fluid-on-mobile="false"
+          src="./images/verify.png"
+          alt="Verify"
+          width="60px"
+          padding="5px 0px 0px"
+          align="left"
+        />
+        <mj-text>
+          <span style="font-size: 12px">3 yrs</span>
+          <span style="font-size: 13px; font-weight: bold" padding-left="5px">
+            4.3/5.0</span
+          >
+        </mj-text>
+      </mj-column>
+      <!-- CARD 2 -->
+      <mj-column padding="0px 5px 15px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="./images/trouser.jpg"
+          alt="Shopping for men"
+          width="300px"
+          padding="0"
+          align="left"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text padding="10px 0px 1px" font-size="12px">
+          Wholesale High Quality...
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-weight="bold"
+          color="#111111"
+          align="left"
+          text-transform="uppercase"
+        >
+          HK$2191.15 - HK$4633.60
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="left"
+          padding="2px 0px 0px"
+        >
+          Min.order: 1 Unit
+        </mj-text>
+        <mj-image
+          fluid-on-mobile="false"
+          src="./images/verify.png"
+          alt="Verify"
+          width="60px"
+          padding="5px 0px 0px"
+          align="left"
+        />
+        <mj-text>
+          <span style="font-size: 12px">3 yrs</span>
+          <span style="font-size: 13px; font-weight: bold" padding-left="5px">
+            4.3/5.0</span
+          >
+        </mj-text>
+      </mj-column>
+      <!-- CARD 3 -->
+      <mj-column padding="0px 5px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="./images/powerstation.jpg"
+          alt="Shopping for men"
+          width="300px"
+          padding="0"
+          align="left"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text padding="10px 0px 1px" font-size="12px">
+          2024 New Portable Pow...
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-weight="bold"
+          color="#111111"
+          align="left"
+          text-transform="uppercase"
+        >
+          HK$2191.15 - HK$4633.60
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="left"
+          padding="2px 0px 0px"
+        >
+          Min.order: 1 Unit
+        </mj-text>
+        <mj-image
+          fluid-on-mobile="false"
+          src="./images/verify.png"
+          alt="Verify"
+          width="60px"
+          padding="5px 0px 0px"
+          align="left"
+        />
+        <mj-text>
+          <span style="font-size: 12px">3 yrs</span>
+          <span style="font-size: 13px; font-weight: bold" padding-left="5px">
+            4.3/5.0</span
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- ROW 4 -->
+    <mj-section background-color="#ffffff">
+      <!-- CARD 1 -->
+      <mj-column padding="15px 5px 15px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="./images/outdoor.jpg"
+          alt="Shopping for women"
+          width="300px"
+          padding="0px"
+          align="left"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text padding="10px 0px 1px" font-size="12px">
+          Outdoor 110v 220v lif...
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-weight="bold"
+          color="#111111"
+          align="left"
+          text-transform="uppercase"
+        >
+          HK$2191.15 - HK$4633.60
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="left"
+          padding="2px 0px 0px"
+        >
+          Min.order: 1 Unit
+        </mj-text>
+        <mj-image
+          fluid-on-mobile="false"
+          src="./images/verify.png"
+          alt="Verify"
+          width="60px"
+          padding="5px 0px 0px"
+          align="left"
+        />
+        <mj-text>
+          <span style="font-size: 12px">3 yrs</span>
+          <span style="font-size: 13px; font-weight: bold" padding-left="5px">
+            4.3/5.0</span
+          >
+        </mj-text>
+      </mj-column>
+      <!-- CARD 2 -->
+      <mj-column padding="0px 5px 15px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="./images/laptop.jpg"
+          alt="Shopping for men"
+          width="300px"
+          padding="0"
+          align="left"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text padding="10px 0px 1px" font-size="12px">
+          2024 laptop with 256g...
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-weight="bold"
+          color="#111111"
+          align="left"
+          text-transform="uppercase"
+        >
+          HK$2191.15 - HK$4633.60
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="left"
+          padding="2px 0px 0px"
+        >
+          Min.order: 1 Unit
+        </mj-text>
+        <mj-image
+          fluid-on-mobile="false"
+          src="./images/verify.png"
+          alt="Verify"
+          width="60px"
+          padding="5px 0px 0px"
+          align="left"
+        />
+        <mj-text>
+          <span style="font-size: 12px">3 yrs</span>
+          <span style="font-size: 13px; font-weight: bold" padding-left="5px">
+            4.3/5.0</span
+          >
+        </mj-text>
+      </mj-column>
+      <!-- CARD 3 -->
+      <mj-column padding="0px 5px">
+        <mj-image
+          fluid-on-mobile="true"
+          src="./images/human-hair.png"
+          alt="Shopping for men"
+          width="300px"
+          padding="0"
+          align="left"
+        />
+        <!-- article heading: #111111 -->
+        <mj-text padding="10px 0px 1px" font-size="12px">
+          Cuticle aligned Vietn...
+        </mj-text>
+        <mj-text
+          font-size="16px"
+          font-weight="bold"
+          color="#111111"
+          align="left"
+          text-transform="uppercase"
+        >
+          HK$2191.15 - HK$4633.60
+        </mj-text>
+        <!-- article body: #666666 -->
+        <mj-text
+          css-class="dm-text-body"
+          font-size="12px"
+          line-height="1.4"
+          color="#666666"
+          align="left"
+          padding="2px 0px 0px"
+        >
+          Min.order: 1 Unit
+        </mj-text>
+        <mj-image
+          fluid-on-mobile="false"
+          src="./images/verify.png"
+          alt="Verify"
+          width="60px"
+          padding="5px 0px 0px"
+          align="left"
+        />
+        <mj-text>
+          <span style="font-size: 12px">3 yrs</span>
+          <span style="font-size: 13px; font-weight: bold" padding-left="5px">
+            4.3/5.0</span
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- FOOTER SECTION -->
+    <!-- APP INSTALL SECTION -->
+    <mj-section padding="40px 15px 0px" background-color="#f4f4f4">
+      <mj-group width="420px">
+        <mj-column width="50%" padding="0px" vertical-align="middle">
+          <mj-text font-size="14px" color="#111111" line-height="1.2">
+            Install
+            <span style="font-weight: bold">Alizon.com</span> application
+          </mj-text>
+        </mj-column>
+
+        <mj-column width="25%" vertical-align="middle" padding="0px">
+          <mj-image
+            fluid-on-mobile="false"
+            src="./images/play-store.png"
+            alt="Help section"
+            width="100px"
+            padding="0px 5px 0px 0px"
+            align="left"
+          />
+        </mj-column>
+
+        <mj-column width="25%" vertical-align="middle">
+          <mj-image
+            fluid-on-mobile="false"
+            src="./images/app-store.png"
+            alt="Help section"
+            width="100px"
+            padding="0px 0px 0px 5px"
+            align="left"
+          />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- SOCIAL MEDIA ICONS -->
+    <!-- Social media icons -->
+    <mj-section background-color="#f4f4f4" padding="20px 0">
+      <mj-column>
+        <mj-text align="center">
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            style="display: inline-block"
+          >
+            <img src="./images/fb.png" alt="facebook link" width="30px" />
+          </a>
+          <a
+            href="https://x.com"
+            target="_blank"
+            style="display: inline-block; padding: 0px 8px"
+          >
+            <img src="./images/twt.png" alt="facebook link" width="30px" />
+          </a>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            style="display: inline-block; padding: 0px 8px"
+          >
+            <img src="./images/yt.png" alt="facebook link" width="30px" />
+          </a>
+
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            style="display: inline-block; padding: 0px 8px"
+          >
+            <img src="./images/insta.png" alt="facebook link" width="30px" />
+          </a>
+          <a
+            href="https://linkedin.com"
+            target="_blank"
+            style="display: inline-block; padding: 0px 0px 0px 8px"
+          >
+            <img src="./images/linkedin.png" alt="facebook link" width="30px" />
+          </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- LAST BOTTOM FOOTER TEXT -->
+    <mj-section background-color="#f4f4f4" padding="0px 0px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="13px" font-weight="bold">
+          Help Center | Blog | Request for Question | My Account
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
 </mjml>
