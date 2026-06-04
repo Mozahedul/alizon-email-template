@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "mjml alizon.mjml -o alizon.html",
+    "build": "mjml index.mjml -o index.html",
     "watch": "nodemon --ext mjml --exec \"npm run build\""
   },
   "repository": {
